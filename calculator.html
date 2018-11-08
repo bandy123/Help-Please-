@@ -1,0 +1,61 @@
+<html>
+<head>
+
+<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+		<script src="thescript.js"></script>
+		<link rel="stylesheet" href="stylesheet.css"/>
+
+<body>
+
+<div id="attendees_wrapper" class="g one-whole field_attendees repeatable custom-add">
+  <div id="attendees_0_" class="gw">
+    <div id="attendee_heading" class="g one-whole field_attendee_heading">
+    </div>
+    <!--
+   -->
+    <div class="g one-half field_attendees_0_reg_type">
+      <p>
+        <label for="Registration Type*">Tuition Calculator:</label>			
+        <select class="registration_type" name="attendees_0_reg_type">
+          <option value="" selected="selected">Select...</option>
+          <option value="fullyear">Full Year</option>
+          <option value="child">Per Semester</option>
+        </select>
+      </p>
+    </div>
+    
+</div>
+<div id="reg_calc_wrapper" class="g one-whole field_reg_calc">
+  <div class="field_reg_calc">
+    <h4 class="no_bdr_hdr">
+      <div>Tuition
+        <span id="tuitions"></span>
+      </div>
+	  <br>
+      <div>Technology Fee
+        <span id="tech"></span>
+      </div>
+	  <br>
+      <div>Athletic & Health Fee
+        <span id="campers"></span>
+      </div>
+      <div class="fam_reg_calc">Total
+        <span id="cost"></span>
+      </div>
+    </h4>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
